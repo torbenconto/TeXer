@@ -1,4 +1,5 @@
-
+# TeXer
+Automatic compilation cli for LaTeX files.
 
 ### Why a polling watcher instead of using kqueue or inotify?
 Because great implementations for kernel event catchers already exist in golang with fsnotify. Also, kqueue and things like it are pretty heavy on system resources and I would like TeXer to be as lightweight as possible.
